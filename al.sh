@@ -79,4 +79,5 @@ check_command sudo systemctl start alist
 # 设置 AList 服务开机自启
 check_command sudo systemctl enable alist
 
-echo "AList 服务已启动并设置为开机自启。"
+/opt/alist admin set 1
+echo "AList 服务已启动并设置为开机自启,初始账户密码：admin；1。"
